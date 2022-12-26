@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+
+
+
+<!DOCTYPE myMessage [
+   <!ELEMENT myMessage ( message )*>
+   <!ELEMENT message ( #PCDATA )>]>
+
+<myMessage>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+   <message>Welcome to XML!</message>
+</myMessage>

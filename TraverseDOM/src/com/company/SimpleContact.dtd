@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<!ELEMENT contacts (contact+)>
+<!ELEMENT contact (FirstName, LastName)>
+<!ATTLIST contact	gender (M | F) "M">
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+

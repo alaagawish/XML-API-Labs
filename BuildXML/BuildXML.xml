@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Father Age="50" Name="Mohamed">
+    <Child Age="20" Name="Karim"><Children/>I'm a child
+    </Child>
+    I'm a father
+</Father>
