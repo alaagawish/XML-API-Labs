@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyConfiguration SYSTEM "MyConfig.dtd">
+<MyConfiguration>
+	<Menu name="File">
+		<menuItem>menuItem1</menuItem>
+		<menuItem>menuItem3</menuItem>
+		<menuItem>menuItem4</menuItem>
+		<menuItem>menuItem5</menuItem>
+		<menuItem>menuItem6</menuItem>
+	</Menu>
+	<Menu name="Edit">
+		<menuItem>menuItem10</menuItem>
+		<menuItem>menuItem30</menuItem>
+		<menuItem>menuItem40</menuItem>
+		<menuItem>menuItem50</menuItem>
+		<menuItem>menuItem60</menuItem>
+	</Menu>
+	<Menu name="Help">
+		<menuItem>menuItem010</menuItem>
+		<menuItem>menuItem030</menuItem>
+		<menuItem>menuItem040</menuItem>
+		<menuItem>menuItem050</menuItem>
+	</Menu>
+	<Menu name="Edit2">
+		<menuItem>menuItem0010</menuItem>
+		<menuItem>menuItem0030</menuItem>
+		<menuItem>menuItem0040</menuItem>
+		<menuItem>menuItem0050</menuItem>
+		<menuItem>menuItem0060</menuItem>
+	</Menu>
+	<Buttons positions="South">
+		<button>button1</button>
+		<button>button2</button>
+		<button>button3</button>
+		<button>button4</button>
+	</Buttons>
+</MyConfiguration>
