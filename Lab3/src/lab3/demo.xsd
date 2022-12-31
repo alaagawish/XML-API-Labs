@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+	<xs:element name="Person" type="PersonType"/>
+	<xs:complexType name="PersonType">
+		<xs:sequence>
+			<xs:element name="Name" type="NameType"/>
+			<xs:element name="Address" type="AddressType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="kind" type="xs:string"/>
+	</xs:complexType>
+	<xs:simpleType name="NameType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="Number" type="xs:unsignedInt"/>
+			<xs:element name="Street" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

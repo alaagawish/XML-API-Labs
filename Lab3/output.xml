@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Person>
+    <Name>Khaled Mohamed</Name>
+    <Address>
+        <Number>5</Number>
+        <Street>Giza</Street>
+    </Address>
+</Person>

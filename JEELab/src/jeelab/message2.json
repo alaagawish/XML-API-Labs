@@ -1,0 +1,32 @@
+[
+    {
+        "id": 12,
+        "name": "Medhat",
+        "gender": true,
+        "salary": 15.5,
+        "addresses": [{
+                "number": 1,
+                "street": "First Street",
+                "region": "First Region"
+            },{
+                "number": 2,
+                "street": "Second Street",
+                "region": "Second Region"
+            }]
+    },
+    {
+        "id": 12,
+        "name": "Khaled",
+        "gender": true,
+        "salary": 25,
+        "addresses": [{
+                "number": 1,
+                "street": "First Street",
+                "region": "First Region"
+            },{
+                "number": 2,
+                "street": "Second Street",
+                "region": "Second Region"
+            }]
+    }
+]
